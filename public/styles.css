@@ -1,0 +1,515 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:700');
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500');
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body{
+    font-family: 'Raleway', sans-serif !important;
+}
+.wrap{
+    background:white ;
+}
+
+
+h1{
+    color: black;
+    font-style: normal;
+    font-weight:200;
+    font-size: 36px;
+    line-height: 54px;
+}
+
+
+h3{
+    color: azure;
+}
+h4{
+    color:azure;
+    font-style: normal;
+    font-weight:700;
+    font-size: 20px;
+}
+
+p{
+    font-style: normal;
+    font-weight: 400;
+    font-size:16px;
+}
+
+button{
+    background: rgb(236, 236, 236);
+}
+
+button:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    color: black;
+    border: 1px solid black;
+}
+
+li:hover{
+
+    color: azure;
+    background: #4A78F6;
+
+    cursor: pointer;
+}
+
+.wrap::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.main-page {
+
+    height:125%;
+    width: 100%;
+
+    padding: 20px;
+
+    background: linear-gradient(46deg, #f48642 37%, #F6F6F6 29%, #FFFF 68%, #f48642 55%);
+}
+
+
+#welcome {
+    width: 100%;
+    margin:100px auto;
+    padding: 20px;
+    background: white;
+    text-align: center;
+
+    font-size: 380%;
+
+}
+
+.btn-row {
+    width:30%;
+    margin:10px auto;
+    padding: 10px;
+}
+
+.btn-deco {
+    margin: auto;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+
+.left {
+
+    padding: 20px;
+    float: left;
+    background: #3366CC;
+
+}
+
+.right {
+    height: 100%;
+    float: right;
+    padding: 0px;
+
+}
+.right h4{
+    color: black;
+}
+
+.events {
+    padding: 15px;
+    border-bottom: 1px solid rgb(236, 236, 236);
+}
+.events:hover{
+    cursor: pointer;
+    background: rgb(236, 236, 236);
+    color: rgb(51,89,239);
+}
+
+.right h4,h6,p,button{
+    padding:5px;
+}
+
+.left h4,h3,label,input{
+    display: block;
+    margin:20px 0px;
+    padding: 15px 0px
+}
+.left label{
+
+    padding-left: 0px;
+    width: 75%;
+    margin-bottom: 0px;
+    padding-bottom: 2px;
+    color: azure;
+}
+.left input{
+    padding: 10px;
+    width: 100%;
+    border-radius: 3px;
+    border: navajowhite;
+    height: 40px;
+}
+.left select{
+    display: block;
+    margin:20p 0px;
+    padding: 15px;
+    width: 100%;
+    height: 40px;
+}
+
+.btn-create-event {
+    display: block;
+    margin:20px 0px;
+    padding: 15px;
+}
+
+
+.create-events {
+    border: 2px solid black;
+}
+.create-events input,label,select,textarea,button {
+
+    display: block;
+    margin: 30px;
+    margin-top: 10px;
+    padding:10px;
+    margin-left: 0px;
+}
+.create-events select{
+    display: block;
+    margin:20p 0px;
+    padding: 15px;
+    width:75%;
+    height: 40px;
+}
+.create-events label{
+
+    margin: 0 30px;
+    padding-bottom: 0;
+    margin-left: 0px;
+    padding-left:0px;
+}
+
+.event-wrapper {
+    padding: 0px;
+    overflow: hidden;
+}
+
+.headings {
+    margin:auto;
+    width: 55%;
+    padding: 10px;
+    color: azure;
+}
+.headings h1{
+    color: black;
+}
+
+.create-events-form {
+
+    width:55%;
+
+    margin:auto;
+    padding: 60px;
+    background:white;
+
+    box-shadow: 3px 1px 50px 9px rgba(0,0,0,0.3);
+}
+
+.register-form {
+
+    width: 55%;
+
+    margin:auto;
+    padding: 60px;
+    background:white;
+
+    box-shadow: 3px 1px 50px 9px rgba(0,0,0,0.3);
+
+}
+
+.login-form {
+
+    width:55%;
+
+    margin:auto;
+    padding: 60px;
+    background:white;
+
+    box-shadow: 3px 1px 50px 9px rgba(0,0,0,0.3);
+}
+
+.slider {
+
+    width:900px;
+    text-align: center;
+
+    margin: auto;
+}
+
+.barner {
+    width: 100%;
+
+    background: azure;
+    color: black;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+
+}
+
+.featurete {
+    width: 100%;
+
+    background: #007bff;
+    padding: 70px;
+    color: azure;
+}
+
+.main-features {
+    width: 100%;
+    background: white;
+}
+
+.main-footer {
+    width:100%;
+    height: 400px;
+    background: black;
+}
+
+@media (max-width: 680px) {
+
+    .register-form{
+        width: 100%;
+
+    }
+}
+
+@media (max-width: 680px) {
+
+    .login-form{
+        width: 100%;
+
+    }
+}
+
+@media (max-width: 680px) {
+
+    .create-events-form{
+        width: 100%;
+
+    }
+}
+
+@media (max-width: 680px) {
+
+    .main-page{
+        width: 100%;
+
+    }
+}
+@media (max-width: 680px) {
+
+    .slider{
+        width: 400px;
+
+    }
+}
+@media (max-width: 680px) {
+
+    .welcome{
+
+        width: 100%;
+
+    }
+}
+
+nav input{
+    margin: inherit;
+}
+
+#lgn-fix {
+    height: 720px;
+}
+
+.main-header {
+    height: 50px;
+    width:100%;
+    background: #020731;
+    padding: 10px;
+}
+
+.sub-featurate {
+    text-align: center;
+}
+
+.circle {
+    height: 120px;
+    width: 120px;
+    background: green;
+    margin: auto;
+    border-radius: 100%;
+    margin-bottom: 15px;
+}
+
+.learn-more {
+    margin: auto;
+}
+
+.featurate-header {
+    text-align: center;
+    color: azure;
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.showcase {
+    background: yellow;
+    border-left: 2px solid black;
+    margin: 30px;
+
+}
+
+.images {
+    width: 920px;
+    margin: auto;
+}
+
+.main-features-heading {
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 0px;
+}
+
+.edit {
+    float: right;
+}
+.modal-heading{
+    text-align: center;
+    margin:auto;
+    margin-left: 10px;
+}
+.txt-ar{
+        width: 95%;
+    margin: auto;
+}
+
+.row.event-wrapper>div:first-child {
+    background-image: url('http://toranj.co.ke/event.jpg');
+    background-position: 61% -23%;
+    background-size: cover;
+    box-shadow: 0px 0px 15px -4px rgb(0, 0, 0);
+    transform: translateX(-9px);
+}
+
+.row.event-wrapper>div:first-child:after {
+    content:"";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.38);
+    z-index: 0;
+}
+
+.row.event-wrapper>div:first-child>* {
+    z-index: 1;
+    position: relative;
+}
+
+nav.container.navbar {
+    height: 100px;
+    border: 1px solid #ececec;
+    margin-bottom: 15px;
+    color: #fff;
+    box-shadow: 0px 0px 15px -5px rgba(0, 0, 0, 0.5490196078431373);
+}
+
+.btn-create-event {
+    padding: 11px;
+    background: #cf4915;
+    color: #fff;
+    border: none;
+    box-shadow: 0px 0px 10px 0px #0000006e;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.btn-create-event:hover {
+    opacity: 1 !important;
+    color: #fff;
+    background: #7aae00;
+}
+
+.wrap.container {
+}
+
+.btn-group-lg>.btn, .btn-lg {
+    padding: 11px 20px;
+    background: #cf4915;
+    color: #fff;
+    border: none !important;
+    box-shadow: 0px 0px 10px 0px #0000006e;
+    font-size: 16px;
+}
+
+.btn-group-lg>.btn:hover, .btn-lg:hover {
+    opacity: 1 !important;
+    color: #fff;
+    background: #7aae00;
+}
+
+.events:hover {
+    cursor: auto;
+    background: #f7f7f7;
+    color: #525252;
+}
+
+.events {
+    cursor: auto;
+    background: #fff;
+    color: #525252;
+}
+
+.event-wrapper {
+    padding: 15px;
+}
+
+select {
+    border: none;
+}
+
+.events:last-child {
+    border-bottom: none;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    height: 101px;
+    padding: 38px 40px;
+    color: #525252;
+    /* border-right: 1px solid #dcdcdc; */
+    transition: all 150ms linear 0ms;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    background: #cf4815;
+    color: #fff;
+    height: 100px;
+}
+
+a.navbar-brand {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 37px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+p, a {
+    font-family: 'Raleway', sans-serif;
+}
